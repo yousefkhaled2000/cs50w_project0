@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script data-search-pseudo-elements defer 
+    src="https://use.fontawesome.com/releases/latest/js/all.js" 
+    integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" 
+    crossorigin="anonymous">
+    </script>
+    <title>Image Search</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <!-- Image search CSS File -->
+    <link rel="stylesheet" href="css/image.css" />
+    <!-- Render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- Start header -->
+    <div class="header">
+      <div class="container">
+        <a href="index.html" class="logo" title="Go to google search">
+          <span class="blue">C</span>
+          <span class="red">S</span>
+          <span class="yellow">5</span>
+          <span class="green">
+            <i class="fas fa-search" style="font-size: 15px;"></i>
+          </span>
+        </a>
+        <div class="links">
+          <span class="icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <ul>
+            <li><a href="index.html">Google Search</a></li>
+            <li><a href="advanced.html">Advanced Search</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End header -->
+    <!-- Start search section -->
+    <div class="search">
+      <div class="image">
+        <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" title="Google Images" />
+        <span>images</span>
+      </div>
+      <form action="https://www.google.com.eg/search">
+        <div class="bar">
+          <input class="input" type="text" name="q" title="Search"
+          maxlength="2048" aria-autocomplete="both" aria-haspopup="false" 
+          autocapitalize="off" autocomplete="off" autocorrect="off" 
+          autofocus="" role="combobox" spellcheck="false" aria-label="Search" />
+          <input type="hidden" name="tbm" value="isch" />
+          <span class="camera" title="Search by image"></span>
+          <img src="images/microphone.png" alt="microphone" title="Search by voice" />
+        </div>
+        <div class="btns">
+          <input class="btn" type="submit" value="Search Images" />
+        </div>
+      </form>  
+    </div>
+    <!-- End search section -->
+    <!-- Start footer -->
+    <div class="footer">
+      &copy; 2021 <span>Search</span> All Right Reserved
+    </div>
+    <!-- End footer -->
+  </body>
+</html>

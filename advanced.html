@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Search</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
+    <!-- advanced search CSS File -->
+    <link rel="stylesheet" href="css/advanced.css" />
+    <!-- Render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <!-- Start header -->
+    <div class="header">
+      <div class="container">
+        <a href="index.html" class="logo" title="Go to google search">
+          <span class="blue">C</span>
+          <span class="red">S</span>
+          <span class="yellow">5</span>
+          <span class="green">
+            <i class="fas fa-search" style="font-size: 15px;"></i>
+          </span>
+        </a>
+        <div class="links">
+          <span class="icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <ul>
+            <li><a href="index.html">Google Search</a></li>
+            <li><a href="image.html">Image Search</a></li>
+          </ul>
+        </div>
+        <span>Advanced Search</span>
+      </div>
+    </div>
+    <!-- End header -->
+    <!-- Start advanced search -->
+    <div class="advanced">
+      <span>Find pages with...</span>
+      <div class="inputs">
+        <form action="https://www.google.com.eg/search">
+          <div class="in1">
+            <label for="in1">all these words:</label>
+            <input id="in1" type="text" name="as_q" />
+          </div>
+
+          <div class="in2">
+            <label for="in2">this exact word or phrase:</label>
+            <input id="in2" type="text" name="as_epq" />
+          </div>
+
+          <div class="in3">
+            <label for="in3">any of these words:</label>
+            <input id="in3" type="text" name="as_oq" />
+          </div>
+          
+          <div class="in4">
+            <label for="in4">none of these words:</label>
+            <input id="in4" type="text" name="as_eq" />
+          </div>
+          <input value="Advanced Search" type="submit" />
+      </form>
+      </div>
+    </div>
+    <!-- End advanced search -->
+    <!-- Start footer -->
+    <div class="footer">
+      &copy; 2021 <span>Search</span> All Right Reserved
+    </div>
+    <!-- End footer -->
+  </body>
+</html>
